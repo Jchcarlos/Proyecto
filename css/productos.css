@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600;700&family=Poppins:wght@400;500;600;700&display=swap');
 
 /*-----VARIABLES-----*/
+/*Aqui se cambian los colores de botones o elementos*/
 :root{
     --primary-color: #2f2f2f;
-    --text-dark: #18181b;
+    --text-dark: #000000;
     --text-light: #71717a;
     --white:#ffffff;
     --max-width: 1200px;
@@ -30,6 +31,18 @@
 }
 .section_subheader{
     color: var(--text-light);
+}
+.btn1{
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary-color);
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+.btn1:hover{
+    background-color: var(--text-dark);
 }
 .btn{
     padding: 0.75rem 2rem;
